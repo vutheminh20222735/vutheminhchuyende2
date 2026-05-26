@@ -1,0 +1,36 @@
+name: quan_ly_chi_tieu
+description: Personal expense tracker app with AI
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0        # Cập nhật lên mới nhất
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.3
+  fl_chart: ^0.68.0
+
+  # Thêm Google Sign-In
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  google_sign_in: ^6.1.5
+
+  # UI
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/mina.jpg
